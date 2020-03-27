@@ -1,0 +1,19 @@
+
+  table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        width:100%;
+        text-align:center;
+      }
+    tr,td{
+      border: 1px solid black;
+    }
+    p{
+      color:white;
+      text-align:center;
+
+    }
+    .pictures{
+      width:300px;
+      height:200px;
+    }
