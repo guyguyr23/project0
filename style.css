@@ -1,19 +1,33 @@
 
-  table{
-        border: 2px solid black;
-        border-collapse: collapse;
+  #headTable{
+
         width:100%;
         text-align:center;
+        height:7%;
       }
-    tr,td{
-      border: 1px solid black;
+      .headtd{
+      background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
     }
     p{
-      color:white;
-      text-align:center;
-
+     margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
+      color:black;
+      font-size: 20px;
+      text-align: left;
+      background-color: hsla(60, 100%, 90%, 0.3);
     }
     .pictures{
-      width:300px;
+      padding-bottom: 25px;
+      padding-top: 25px;
+      width:400px;
       height:200px;
+      transition: width 2s, height 2s, transform 2s;
+    }
+    .pictures:hover{
+      width: 400px;
+      height: 250px;
+ transform: rotate(360deg);
+
+    }
+    #mainBody{
+      width:100%;
     }
