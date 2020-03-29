@@ -1,33 +1,66 @@
 
   #headTable{
-
         width:100%;
         text-align:center;
         height:7%;
       }
-      .headtd{
-      background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
+   .headtd{
+        background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
     }
     p{
-     margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
-      color:black;
-      font-size: 20px;
-      text-align: left;
-      background-color: hsla(60, 100%, 90%, 0.3);
+        margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
+        color:black;
+        font-size: 20px;
+        text-align: left;
+        background-color: hsla(60, 100%, 90%, 0.3);
     }
     .pictures{
-      padding-bottom: 25px;
-      padding-top: 25px;
-      width:400px;
-      height:200px;
-      transition: width 2s, height 2s, transform 2s;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        width:80%;
+        height:110%;
+        transition: width 2s, height 2s, transform 2s;
     }
     .pictures:hover{
-      width: 400px;
-      height: 250px;
- transform: rotate(360deg);
-
-    }
+        width:120%;
+        height:130%;
+        transform: rotate(360deg);
+        }
     #mainBody{
-      width:100%;
+        width:100%;
     }
+    .grid {
+        background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
+        display: grid;
+        padding: 10px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .grid-item {
+        background-color: hsla(60, 100%, 90%, 0.3);
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .container {
+        padding-left: 250px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-right: 100px;
+       background-color: hsla(36, 100%, 50%, 0.3);
+              }
+    .container > div {
+        font-size: 20px;
+        margin: 50px;
+        padding: 30px;
+        width: 30%;
+        height:200px;
+              }
+    div > .text{
+        height:20%;
+        background-color: hsla(60, 100%, 90%, 0.3);
+        margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
+          }
