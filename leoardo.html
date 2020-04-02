@@ -1,24 +1,83 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {
-  background-color: yellow;
-}
+    <head>
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-</style>
-</head>
-<body>
+        <title>leonardo davinci</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <style>
+          @media (min-width: 1350px) {
+            #firstText1::after{
 
-<h1>The @media Rule</h1>
+              content:" Two major works are known only as copies. Works are regularly attributed to Leonardo with varying degrees of credibility. None of Leonardo's paintings are signed. The attributions here draw on the opinions of various scholars."
+            }
+            #firstText::before{
 
-<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "yellow".</p>
+              content:"Mona Lisa, also known as La Gioconda, is the wife of Francesco del Giocondo. This painting is painted as oil on wood. The original painting size is 77 x 53 cm (30 x 20 7/8 in) and is owned by by the Government of France and is on the wall in the Louvre in Paris, France."
+            }
+            #seacondText::after{
+              content:" It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Regarded as among Van Gogh's finest works, The Starry Night is one of the most recognized paintings in the history of Western culture."
+            }
+            #thirdText::before{
+              content:" The Virgin and Child with St Anne was painted by Leonardo Da Vinci on 1510. It is Oil on wood and measures 168 x 130 cm (5 1/2 x 4 1/2 ft.). The original one is now located at Musée du Louvre, Paris."
+            }
+            #fourthText::before{
+              content: "The Louvre holds this artwork of Bacchus which some have ascribed to Leonardo. Transferred to canvas at some stage during the nineteenth century others consider it was more likely to have been painted by Cesare da Sesto, Bernazzano, Francesco Melzi or a 'Lombard painter'."
+            }
+          }
+          @media (max-width: 1349px){
+            .pictures2{
+               width:100%;
+              }
+              .container > div{
+                font-size: 15px;
+                }
+                .container{
+                  padding-left:0px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin-left: 0;
+                  margin-right: 0;
+                }
+            }
+            @media (max-width: 550px){
+              .grid-item{
+                  padding: 0px;
+              }
+            }
+          </style>
+    </head>
+      <body style=" background-image: url('https://www.stockvault.net/data/2010/05/31/113907/preview16.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100% 100%;">
+        <h3 style="color:silver; text-align:center;"> Name of the artist:leonardo davinci</h3>
+        <div class="grid">
+          <div class="grid-item"> <a href="vincent.html">Vincent </a> </div>
+          <div class="grid-item"><a href="picasso.html">picasso</a></div>
+          <div class="grid-item"><a href="index.html">home page</a></div>
+          <div class="grid-item"><a href="leoardo.html">leonardo </a></div>
+          <div class="grid-item"><a href="salvador.html">salvador dali</a></div>
+        </div>
 
-</body>
+      <div class="container">
+        <div  class="text" id="firstText1">Leonardo da Vinci (1452–1519) was one of the leading artists of the High Renaissance.<br><br> Fifteen artworks are generally attributed either in whole or in large part to him. However, it is believed that he made many more, only for them to be lost over the years or remain unidentified.<br> The authorship of several paintings traditionally attributed to Leonardo is disputed.<br><br> </div>
+
+        <div  ><img src="https://4.bp.blogspot.com/-P6LPoG6xLkw/UaeOuTwGguI/AAAAAAAAABM/dRb87Lz5C_s/s1600/p17.jpg" alt="Vincent" class="pictures2"></div>
+
+
+
+        <div  ><img src="https://www.leonardodavinci.net/images/paintingthumbs/mona-lisa.jpg" alt="Vincent" class="pictures2"></div>
+
+        <div  class="text" id="firstText">This figure of a woman, dressed in the Florentine fashion of her day and seated in a visionary, mountainous landscape, is a remarkable instance of Leonardo's sfumato technique of soft, heavily shaded modeling.<br> The Mona Lisa's enigmatic expression, which seems both alluring and aloof, has given the portrait universal fame.</div>
+
+        <div class="text" id="seacondText">The Last Supper is Leonardo's visual interpretation of an event chronicled in all four of the Gospels (books in the Christian New Testament).<br><br> The evening before Christ was betrayed by one of his disciples, he gathered them together to eat, tell them he knew what was coming and wash their feet (a gesture symbolizing that all were equal under the eyes of the Lord).<br><br></div>
+        <div><img src="https://www.leonardodavinci.net/images/gallery/last-supper.jpg" alt="Vincent" class="pictures2"></div>
+
+        <div><img src="https://www.leonardodavinci.net/images/gallery/the-virgin-and-child-with-st-anne.jpg" alt="Vincent" class="pictures2"></div>
+        <div class="text" id="thirdText">This painting depicted St. Anne, her daughter the Virgin Mary and the infant Jesus.<br> Christ is shown grappling with a sacrificial lamb symbolising his Passion whilst the Virgin tries to restrain him.<br> The painting was commissioned as the high altarpiece for the Church of Santissima Annunziata in Florence and its theme had long preoccupied Leonardo.</div>
+        <div class="text" id="fourthText">. Deterioration of this painting has made it difficult to judge who the painter may have been, but the background does not seem to be typical of Leonardo, lacking his descriptive qualities</div>
+        <div style="margin-bottom:130px"><img src="https://www.leonardodavinci.net/images/gallery/bacchus.jpg" alt="Vincent" class="pictures2"></div>
+
+
+         </div>
+    </body>
 </html>
