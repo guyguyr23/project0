@@ -1,22 +1,6 @@
-
-  #headTable{
-        width:100%;
-        text-align:center;
-        height:7%;
-      }
-   .headtd{
-        background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
-    }
-    p{
-        margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
-        color:black;
-        font-size: 20px;
-        text-align: left;
-        background-color: hsla(60, 100%, 90%, 0.3);
-    }
-    .pictures{
-        padding-bottom: 25px;
-        padding-top: 25px;
+     .pictures, .pictures2{
+        padding-bottom: 20px;
+        padding-top: 10px;
         width:80%;
         height:110%;
         transition: width 2s, height 2s, transform 2s;
@@ -26,8 +10,32 @@
         height:130%;
         transform: rotate(360deg);
         }
-    #mainBody{
-        width:100%;
+    .pictures2:hover{
+        width:110%;
+        height:140%;
+            }
+    .pictures3{
+      width:200px;
+      height:200px;
+
+      transition: width 1s, height 1s, transform 1s;
+    }
+    .pictures3:hover{
+      width:300px;
+      height:300px;
+            }
+    .painting{
+    background-color: hsla(60, 100%, 90%, 0.7);
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+
+    }
+    #mainTextindex{
+      margin-left: 10em;
+      margin-right: 10em;
+      padding-bottom: 20px;
+      background-color: hsla(150, 100%, 80%, 0.6);
     }
     .grid {
         background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
@@ -48,19 +56,30 @@
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 10em;
+        margin-right: 10em;
        background-color: hsla(36, 100%, 50%, 0.3);
               }
     .container > div {
         font-size: 20px;
-        margin: 50px;
-        padding: 30px;
+        margin: 10px;
+        padding: 25px;
         width: 30%;
         height:200px;
               }
     div > .text{
         height:20%;
         background-color: hsla(60, 100%, 90%, 0.3);
-        margin-left: 2.5em;padding: 0 7em 2em 0;border-width: 20px;padding-left: 20px;padding-top: 10px;
+        margin-left: 2.5em;border-width: 20px;padding-left: 20px;padding-top: 10px;
           }
+    .row{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 25px;
+          }
+    .main{
+       background-color: hsl(180, 100%, 70%, 0.2);
+       text-align: center;
+       margin-left: 10em;
+       margin-right: 10em;
+    }
