@@ -1,0 +1,96 @@
+$bgcolor:hsla(60, 100%, 90%, 0.3);
+$margins:20px;
+$pading:20px;
+.pictures, .pictures2{
+   padding-bottom: 20px;
+   padding-top: 10px;
+   width:80%;
+   height:110%;
+   transition: width 2s, height 2s, transform 2s;
+}
+.pictures:hover{
+   width:120%;
+   height:130%;
+   transform: rotate(360deg);
+   }
+.pictures2:hover{
+   width:110%;
+   height:140%;
+       }
+.pictures3{
+ width:200px;
+ height:200px;
+
+ transition: width 1s, height 1s, transform 1s;
+}
+.pictures3:hover{
+ width:300px;
+ height:300px;
+       }
+.painting{
+background-color: hsla(60, 100%, 90%, 0.7);
+text-align: center;
+margin-left: 10em;
+margin-right: 10em;
+
+}
+#mainTextindex{
+ margin-left: 10em;
+ margin-right: 10em;
+ padding-bottom: $pading;
+ background-color: hsla(150, 100%, 80%, 0.6);
+}
+.grid {
+   background-image: url("https://bgfons.com/uploads/rainbow/rainbow_texture679.jpg");
+   display: grid;
+   padding: 10px;
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+   grid-template-columns: auto auto auto auto auto;
+}
+.grid-item {
+   background-color: $bgcolor;
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+}
+.container {
+   padding-left: 250px;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 10em;
+   margin-right: 10em;
+  background-color: hsla(36, 100%, 50%, 0.3);
+         }
+.container > div {
+   font-size: 20px;
+   margin: 10px;
+   padding: 25px;
+   width: 30%;
+   height:200px;
+         }
+div > .text{
+   height:20%;
+   background-color: $bgcolor;
+   margin-left: 2.5em;
+   border-width: 20px;
+   padding-left: $pading;
+   padding-top: 10px;
+     }
+.row{
+   margin-left: $margins;
+   margin-bottom: $margins;
+   padding-bottom: 25px;
+     }
+.main{
+  background-color: hsl(180, 100%, 70%, 0.2);
+  text-align: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.table{
+  width:50%;
+  text-align:center;
+   margin-left:25%;
+}
